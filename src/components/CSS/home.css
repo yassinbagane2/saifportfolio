@@ -1,0 +1,55 @@
+.home-page {
+    width: 100vw;
+    height: 87vh;
+    background-color: black ;
+}
+
+
+.home-page img {
+    height: 46rem;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10rem;
+    
+}
+
+.home-page h1 {
+    color: white;
+    display: inline-block; 
+}
+
+.welcome {
+    position: absolute;
+    top: 15rem;
+    left: 3rem;
+    display: inline;
+}
+
+.welcome p {
+    color: white;
+    width: 70%;
+    padding: 22px 0;
+}
+.typewriter {
+    font-size: 3.5  rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .home-page img {
+        margin-right: 12rem;
+        height: 40rem;
+
+    }
+    .welcome {
+        margin-left: 8rem;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .home-page img {
+        height: 32rem;
+        transform: translateY(-.6rem);
+    }
+}

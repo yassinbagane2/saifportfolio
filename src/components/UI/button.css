@@ -1,0 +1,23 @@
+.btn {
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #b91c1c;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #b91c1c;
+}
+
+.btn a {
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .btn a{
+        font-size: 1rem;
+    }
+}

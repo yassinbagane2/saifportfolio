@@ -1,0 +1,122 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 1rem;
+}
+.about-me {
+    min-height: 83vh; 
+    width: 100vw;
+    background-color: black;
+}
+
+.col1 {
+    padding: 0 10rem;
+}
+
+.col2 {
+    min-height: 600px;
+    width: 100%;
+    background-color: black;
+    
+}
+.about-me .col2 h2 {
+    color: white;
+    padding: 10px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.col2 h3 {
+    padding-left: 30px;
+    color: #990000;
+}
+.col2 span {
+    color: #e41b1b;
+}
+.col2 p {
+    color: white;
+    opacity: .9;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-right: 30px;
+    width: 80%;
+    
+}
+.myinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200px;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 30px;
+}
+
+.box {
+    width: 28rem;
+    height: 540px;
+    border: 1px solid gray;
+   
+}
+
+.box img {
+    width: 380px;
+    height: 35rem;
+    transform: translateX(2.5rem) translateY(-3rem);
+    position: relative;
+    z-index: 50;
+}
+.hrline {
+    height: 1rem;
+    width: 16rem;
+    background-color: #840101;
+    transform: translate(10.2rem,-3.5rem);
+    z-index: -1;
+}
+.vrline {
+    height: 16rem;
+    width: 2rem;
+    background-color: #840101;
+    transform: translate(25rem,-19.5rem);
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .col1 {
+        padding: 0;
+    }
+  
+    .col2 {
+        padding-left: 1rem;
+    }
+    .col2 p {
+        margin-right: 70px;
+        width: 95%;
+       
+    }
+    .box {
+        margin-left: 6rem;
+    }
+    .box img {
+        transform: translate(2rem,-3rem);
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .box {
+        width: 300px;
+        height: 500px;
+        margin-left: 3rem;
+    }
+   .box img {
+    width: 310px;
+    height: 500px;
+   }
+   .hrline, .vrline {
+    display: none;
+   }
+}
