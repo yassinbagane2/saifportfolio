@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yassinbagane2/saifportfolio.git/static/css/main.02444a7c.css",
+    "main.js": "/yassinbagane2/saifportfolio.git/static/js/main.6188435e.js",
+    "static/media/me2.jpg": "/yassinbagane2/saifportfolio.git/static/media/me2.d2729eb73da7d60a9e3d.jpg",
+    "static/media/me.jpg": "/yassinbagane2/saifportfolio.git/static/media/me.bfdd184038c9f8edbd85.jpg",
+    "index.html": "/yassinbagane2/saifportfolio.git/index.html",
+    "main.02444a7c.css.map": "/yassinbagane2/saifportfolio.git/static/css/main.02444a7c.css.map",
+    "main.6188435e.js.map": "/yassinbagane2/saifportfolio.git/static/js/main.6188435e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02444a7c.css",
+    "static/js/main.6188435e.js"
+  ]
+}
