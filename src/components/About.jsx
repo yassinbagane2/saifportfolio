@@ -20,11 +20,11 @@ const About = () => {
                 𝖬𝗒 𝗀𝗈𝖺𝗅 𝗂𝗌 𝗍𝗈 C𝗋𝖾𝖺𝗍𝖾 𝗈𝗇𝖾 𝗈𝖿 𝗍𝗁𝖾 B𝖾𝗌𝗍 I𝗇𝖽𝗂𝖾 𝟤𝖣 𝗀𝖺𝗆𝖾𝗌 𝗈𝖿 𝖺𝗅𝗅 𝗍𝗂𝗆𝖾 𝖿𝗈𝗋 𝖺𝗅𝗅 P𝗅𝖺𝗍𝖿𝗈𝗋𝗆𝗌 𝖼𝖺𝗎𝗌𝖾 𝗍𝗁𝖺𝗍'𝗌 𝗐𝗁𝖺𝗍 𝗐𝖾 𝖽𝗈 𝗋𝗂𝗀𝗁𝗍 ? 𝖶𝖾 𝖻𝗎𝗂𝗅𝖽 𝗐𝗈𝗋𝗅𝖽𝗌, B𝗋𝗂𝗇𝗀 𝖼𝗁𝖺𝗋𝖺𝖼𝗍𝖾𝗋𝗌 𝗍𝗈 𝗅𝗂𝖿𝖾 𝗍𝗁𝗋𝗈𝗎𝗀𝗁 𝖺 S𝗍𝗈𝗋𝗒 𝗍𝗁𝖺𝗍 𝖽𝗋𝗂𝗏𝖾𝗌 𝗎𝗌 𝖿𝗈𝗋𝗐𝖺𝗋𝖽 𝖡𝖴𝖳 𝗆𝗈𝗌𝗍 𝗂𝗆𝗉𝗈𝗋𝗍𝖺𝗇𝗍𝗅𝗒 𝗂𝗌 𝗍𝗁𝖺𝗍 𝗐𝖾 M𝖺𝗄𝖾 𝖺 B𝗂𝗀 S𝗆𝗂𝗅𝖾 𝗈𝗇 𝗈𝗎𝗋 G𝖺𝗆𝖾𝗋𝗌 F𝖺𝖼𝖾𝗌 𝖺𝗇𝖽 𝗍𝗁𝖺𝗍 𝗐𝗂𝗅𝗅 𝗆𝖺𝗄𝖾 A𝗅𝗅 T𝗁𝖾 D𝗂𝖿𝖿𝖾𝗋𝖾𝗇𝖼𝖾.
                 </p>
                 <ul className='myinfo'>
-                    <li><span>Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saif Touzi</li>
-                    <li><span>Age:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   22</li>
-                    <li><span>Address:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sousse, Tunisia</li>
-                    <li><span>Phone:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+216 27051105</li>
-                    <li><span>Email:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact@saifgames.com</li>
+                    <li>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saif Touzi</li>
+                    <li>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   22</li>
+                    <li>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sousse, Tunisia</li>
+                    <li>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+216 27051105</li>
+                    <li>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact@saifgames.com</li>
                 </ul>
             </div>
         </div>

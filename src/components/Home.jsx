@@ -11,7 +11,7 @@ const Home = () => {
     <div className='home-page' id='home'>
       <img src={Me} alt="me" />
       <div className="welcome">
-        <h1> Hello!</h1>
+        <h1 className='hello'> Hello!</h1>
         <br />
         <h1 className='typewriter'>I'm A &nbsp; </h1>
         <h1 className='typewriter'>

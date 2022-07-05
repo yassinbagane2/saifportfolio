@@ -1,6 +1,6 @@
 .home-page {
     width: 100vw;
-    height: 87vh;
+    height: 100vh;
     background-color: black ;
 }
 
@@ -22,16 +22,34 @@
     position: absolute;
     top: 15rem;
     left: 3rem;
-    display: inline;
+    
 }
 
 .welcome p {
     color: white;
-    width: 70%;
+    font-family: 'poppins';
+    width: 60%;
     padding: 22px 0;
 }
 .typewriter {
-    font-size: 3.5  rem;
+    font-size: 3.5rem;
+}
+@media only screen and (min-width: 1480px) {
+    .home-page img {
+        padding-right: 16rem;
+        height: 55rem !important;
+        transform: translateY(-4rem);
+    }
+    .home-page h1{
+        transform: translateX(9rem);
+    }
+    .hello {
+        font-size: 26px !important;
+    }
+    .home-page p {
+        transform: translateX(9rem);
+        width: 40%;
+    }
 }
 
 
@@ -43,7 +61,7 @@
     }
     .welcome {
         margin-left: 8rem;
-        width: 60%;
+        width: 70%;
     }
 }
 

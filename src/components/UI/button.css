@@ -2,20 +2,30 @@
     padding: 10px 20px;
     background: none;
     border: 1px solid #b91c1c;
-    border-radius: 8px;
+    border-radius: 100px;
     color: white;
     font-weight: 600;
-    margin-left: 10px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: 10rem;
+    transition: ease-out 0.3s;
+
+    
 }
 
 .btn:hover {
-    background: #b91c1c;
+    background-color: #b91c1c;
 }
 
 .btn a {
     color: white;
 }
-
+@media only screen and (min-width:1480px) {
+    .btn {
+        transform: translateX(9rem);
+    }
+    
+}
 @media only screen and (max-width:768px) {
     .btn a{
         font-size: 1rem;

@@ -1,5 +1,6 @@
 .card {
-    width: 350px;
+    min-width: 350px;
+    max-width: 350px;
     height: 500px;
     background-color: black;
     border-radius: 5px;
@@ -30,6 +31,7 @@
 
 .card h1 {
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 .card i {

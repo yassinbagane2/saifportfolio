@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+
 import './Card.css'
 const Card = (props) => {
   return (
@@ -10,7 +10,7 @@ const Card = (props) => {
         <div className="description">
             <p>{props.description}</p>
         </div>
-        <a href={props.href} >Demo</a>
+        <a href={props.href} rel='noreferrer' target="_blank">Demo</a>
     </div>
   )
 }

@@ -3,9 +3,9 @@ import Card from './UI/Card'
 import './CSS/work.css'
 const Work = () => {
   return (
-    <div className="work" id='projects'>
+    <div className="work" id='cousrses'>
       <div className="section__tag">
-        <h1>Projects</h1>
+        <h1>Courses</h1>
         <span className="line1"></span>
         <span className='line2'></span>
         <div className="cards">

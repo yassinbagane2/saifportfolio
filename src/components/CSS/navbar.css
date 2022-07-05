@@ -25,7 +25,7 @@ nav {
     justify-content: space-evenly;
     flex-direction: column;
     margin-top: -900px;
-    width: 350px;
+    width: 540px;
     height: 300px;
     transition: .4s ease-in-out;
     z-index: 1;
@@ -48,6 +48,15 @@ nav {
     margin-top: 395px !important;
     background-color: white;
 }
+@media only screen and (min-width: 1480px) {
+    .logo {
+        padding-left: 9rem;
+    }  
+    .nav__links {
+        padding-right: 14rem;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
     .logo {
