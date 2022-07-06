@@ -11,7 +11,7 @@ const Card = (props) => {
             <p>{props.description}</p>
         </div>
         <a href={props.href} rel='noreferrer' target="_blank">Demo</a>
-        {props.courses && <a href={props.href} rel='noreferrer' target="_blank">Udemy</a>}
+        {props.courses && <a href={props.href} rel='noreferrer' target="_blank">{props.site}</a>}
     </div>
   )
 }

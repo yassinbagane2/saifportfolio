@@ -22,11 +22,11 @@ footer a:hover {
 
 .arrow i {
     position: absolute;
-    color: #b01342;
+    color: #b91c1c;
     right: 6%;
     top: 0;
     font-size: 2rem;
-    border: 2px solid #b01342;
+    border: 2px solid #b91c1c;
     border-radius: 50%;
     padding: 10px 14px;
 }
