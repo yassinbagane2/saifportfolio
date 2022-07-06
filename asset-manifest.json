@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saifportfolio/static/css/main.ce2d2e05.css",
+    "main.css": "/saifportfolio/static/css/main.695be58c.css",
     "main.js": "/saifportfolio/static/js/main.0b735cf5.js",
     "static/media/me2.jpg": "/saifportfolio/static/media/me2.d2729eb73da7d60a9e3d.jpg",
     "static/media/me.jpg": "/saifportfolio/static/media/me.bfdd184038c9f8edbd85.jpg",
     "index.html": "/saifportfolio/index.html",
-    "main.ce2d2e05.css.map": "/saifportfolio/static/css/main.ce2d2e05.css.map",
+    "main.695be58c.css.map": "/saifportfolio/static/css/main.695be58c.css.map",
     "main.0b735cf5.js.map": "/saifportfolio/static/js/main.0b735cf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2d2e05.css",
+    "static/css/main.695be58c.css",
     "static/js/main.0b735cf5.js"
   ]
 }
