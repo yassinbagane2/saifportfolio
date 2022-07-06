@@ -11,14 +11,14 @@ const Contact = () => {
         <Svg2 />
         <h1>Let's Get In <span>Touch!</span></h1>
         <div className="form-inputs">
-          <form action="https://formsubmit.co/yassin.bagane2@gmail.com" method="POST">
+          <form>
             <input type="text" id='name' placeholder='Name' autoComplete="off" />
             <div className="email-sub">
               <input type="email" placeholder='Email' />
               <input type="text" placeholder='Subject'/>
             </div>
             <textarea name="message" id="message" cols="30" rows="10" placeholder='Message'></textarea>
-            <button type="submit" ><span>Send Message</span></button>
+            <button type="submit" onClick={sendMessageHandler}><span>Send Message</span></button>
           </form>
         </div>
         <div className="socials">
