@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saifportfolio/static/css/main.68aff8c5.css",
-    "main.js": "/saifportfolio/static/js/main.d2145d09.js",
-    "static/media/me2.jpg": "/saifportfolio/static/media/me2.d2729eb73da7d60a9e3d.jpg",
-    "static/media/me.jpg": "/saifportfolio/static/media/me.bfdd184038c9f8edbd85.jpg",
-    "index.html": "/saifportfolio/index.html",
-    "main.68aff8c5.css.map": "/saifportfolio/static/css/main.68aff8c5.css.map",
-    "main.d2145d09.js.map": "/saifportfolio/static/js/main.d2145d09.js.map"
+    "main.css": "/www.saifgames.com/static/css/main.5e0de921.css",
+    "main.js": "/www.saifgames.com/static/js/main.aecf27f6.js",
+    "static/media/me2.jpg": "/www.saifgames.com/static/media/me2.d2729eb73da7d60a9e3d.jpg",
+    "static/media/me.jpg": "/www.saifgames.com/static/media/me.bfdd184038c9f8edbd85.jpg",
+    "index.html": "/www.saifgames.com/index.html",
+    "main.5e0de921.css.map": "/www.saifgames.com/static/css/main.5e0de921.css.map",
+    "main.aecf27f6.js.map": "/www.saifgames.com/static/js/main.aecf27f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.68aff8c5.css",
-    "static/js/main.d2145d09.js"
+    "static/css/main.5e0de921.css",
+    "static/js/main.aecf27f6.js"
   ]
 }
