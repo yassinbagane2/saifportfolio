@@ -1,0 +1,104 @@
+.contact {
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 2rem;
+    position: relative;
+
+}
+
+.contact h1 {
+    color: white;
+    padding: 3rem 10rem;
+}
+.contact h1 span {
+    color: #b91c1c;
+}
+
+.form-inputs {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-sub {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: .5rem 0;
+}
+.email-sub input:first-child {
+    margin-right: 16px;
+}
+form {
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input ,textarea{
+    width: 80%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    transition: .3s;
+    resize: none;
+}
+form input:focus , textarea:focus {
+    border: 1px solid #b91c1c;
+}
+
+.contact button {
+    width: 11rem;
+    color: #b01342;
+    font-weight: 600;
+    border: 2px solid #b01342;
+    margin-top: 1rem;
+    padding: .9rem 2rem;
+    background-color: inherit;
+    border-radius: 50px;
+    transition: .5s ease-in;
+}
+.contact button:hover,
+.contact button:focus {
+    box-shadow: inset 400px 0 0 0 #b01342;
+    border: 2px solid #b01342;
+    outline: 0;
+    color: white;
+}
+
+
+
+.custom-shape-divider-top-1657061101 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1657061101 svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 117px;
+}
+
+.custom-shape-divider-top-1657061101 .shape-fill {
+    fill: rgb(29, 29, 29);
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .contact h1 {
+        padding-top: 7rem;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}

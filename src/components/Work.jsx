@@ -5,9 +5,7 @@ const Work = () => {
   return (
     <div className="work" id='projects'>
       <div className="section__tag">
-        <h1>Projects</h1>
-        <span className="line1"></span>
-        <span className='line2'></span>
+        <h1><span>Pro</span>jects</h1>
         <div className="cards">
           <Card image= "images/game1.png" date = "10/04/2022" name = "Last Jump" description="2D Hyper Casual Game Made in 48h using Unity3D and C# !" href= "https://saifgames.itch.io/last-jump?fbclid=IwAR0DHYPRQzMEjRuJOwlkUOv3U5WVkDo6cSmXYUhjmijNKvTwIVjs2QYwdIA"/>
           <Card image= "images/game2.png" date = "16/03/2022" name = "Last Galaxy" description="This is a short 5 levels with a Boss Fight Demo of a 2D Side Scrolling Action Space Shooter, Hope you enjoy it!" href= "https://saifgames.itch.io/last-galaxy?fbclid=IwAR2mxyi4dy8W81yFFoxuagyXPOfjVHbA4SdG9KGqMHB1mE8PJ-qgPVqXVvw"/>

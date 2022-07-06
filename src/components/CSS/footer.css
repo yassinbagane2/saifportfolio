@@ -1,0 +1,31 @@
+footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer h3 {
+    color: white;
+}
+footer a {
+    color: #b01342;
+}
+
+footer a:hover {
+    opacity: .9;
+}
+
+footer i {
+    position: absolute;
+    color: #b01342;
+    right: 6rem;
+    top: 0;
+    font-size: 2rem;
+    border: 2px solid #b01342;
+    border-radius: 50%;
+    padding: 10px 14px;
+}

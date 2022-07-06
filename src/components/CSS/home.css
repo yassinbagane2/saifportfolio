@@ -9,7 +9,7 @@
     height: 46rem;
     float: right;
     padding-top: 10px;
-    padding-right: 10rem;
+
     
 }
 
@@ -36,7 +36,7 @@
 }
 @media only screen and (min-width: 1480px) {
     .home-page img {
-        padding-right: 16rem;
+        padding-right: 11rem;
         height: 55rem !important;
         transform: translateY(-4rem);
     }

@@ -13,22 +13,6 @@
     padding-bottom: 8px;
     
 }
-.line1 {
-    position: absolute;
-    left: 1.6rem;
-    width: 4rem;
-    height: .3rem;
-    border-bottom-left-radius: 5px;
-    background-color: #b91c1c;
-}
-.line2 {
-    position: absolute;
-    left: 6.5rem;
-    width: 2rem;
-    height: .3rem;
-    border-top-right-radius: 5px;
-    background-color: #b91c1c; 
-}
 
 .cards {
     margin-top: 6.2rem;
@@ -38,16 +22,53 @@
 
 }
 
+.courses {
+    width: 100vw;
+    position: relative;
+    background-color: rgb(29, 29, 29);
+}
+.courses .tag {
+    padding-top: 9rem;
+}
+.section__tag span {
+    color: #e41b1b;
+}
+
+
+.custom-shape-divider-top-1657053334 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1657053334 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-top-1657053334 .shape-fill {
+    fill: black;
+}
+
 @media only screen and (max-width: 1480px) {
     .cards {
         gap: 2rem;
         flex-wrap: wrap;
     }
-        .section__tag h1 {
+    .section__tag h1 {
         text-align: start;
-        padding-top: 3rem;
-        margin-left: .6rem;
+        padding-top: 1rem;
+        margin-left: 2rem;
     }
    
+   
 }
-
+@media only screen and (max-width: 1500px) {
+    
+}
