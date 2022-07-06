@@ -22,10 +22,21 @@ footer a:hover {
 footer i {
     position: absolute;
     color: #b01342;
-    right: 6rem;
+    right: 6%;
     top: 0;
     font-size: 2rem;
     border: 2px solid #b01342;
     border-radius: 50%;
     padding: 10px 14px;
 }
+ @media only screen and (max-width:650px) {
+    footer {
+        padding-top: 1rem;
+    }
+    footer i {
+        transform: translateY(-3rem);
+    }
+    footer h3 {
+        font-size: 14px;
+    }
+ }

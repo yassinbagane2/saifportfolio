@@ -102,3 +102,11 @@ form input:focus , textarea:focus {
         text-align: center;
     }
 }
+@media only screen and (max-width:650px) {
+    .form-inputs {
+        transform: translateY(-2rem);
+    }
+    .contact h1 {
+        padding-top: 5rem;
+    }
+}
