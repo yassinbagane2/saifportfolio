@@ -1,5 +1,4 @@
 .contact {
-    height: 80vh;
     width: 100vw;
     background-color: black;
     padding-top: 2rem;
@@ -54,9 +53,9 @@ form input:focus , textarea:focus {
 
 .contact button {
     width: 11rem;
-    color: #b01342;
+    color: #b91c1c;
     font-weight: 600;
-    border: 2px solid #b01342;
+    border: 2px solid #b91c1c;
     margin-top: 1rem;
     padding: .9rem 2rem;
     background-color: inherit;
@@ -65,8 +64,8 @@ form input:focus , textarea:focus {
 }
 .contact button:hover,
 .contact button:focus {
-    box-shadow: inset 400px 0 0 0 #b01342;
-    border: 2px solid #b01342;
+    box-shadow: inset 400px 0 0 0 #b91c1c;
+    border: 2px solid #b91c1c;
     outline: 0;
     color: white;
 }
@@ -94,6 +93,22 @@ form input:focus , textarea:focus {
     fill: rgb(29, 29, 29);
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials i {
+    color: white;
+    font-size: 20px;
+}
+.socials i:nth-child(1) {
+    margin: 0 1.2rem;
+}
+.socials i:hover {
+    color: #b91c1c;
+}
 
 @media only screen and (max-width: 1500px) {
     .contact h1 {

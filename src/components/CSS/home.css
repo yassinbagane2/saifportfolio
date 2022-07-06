@@ -15,7 +15,8 @@
 
 .home-page h1 {
     color: white;
-    display: inline-block; 
+    display: inline-block;
+    font-size: 22px;
 }
 
 .welcome {
@@ -42,6 +43,7 @@
     }
     .home-page h1{
         transform: translateX(9rem);
+        font-size: 42px;
     }
     .hello {
         font-size: 26px !important;
@@ -70,4 +72,11 @@
         height: 32rem;
         transform: translateY(-.6rem);
     }
+    .home-page h1{
+        font-size: 18px;
+    }
+    .home-page p {
+        width: 90%;
+    }
+    
 }

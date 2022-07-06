@@ -10,16 +10,17 @@ footer {
 
 footer h3 {
     color: white;
+    
 }
 footer a {
-    color: #b01342;
+    color: #b91c1c;
 }
 
 footer a:hover {
     opacity: .9;
 }
 
-footer i {
+.arrow i {
     position: absolute;
     color: #b01342;
     right: 6%;
@@ -29,6 +30,8 @@ footer i {
     border-radius: 50%;
     padding: 10px 14px;
 }
+
+
  @media only screen and (max-width:650px) {
     footer {
         padding-top: 1rem;

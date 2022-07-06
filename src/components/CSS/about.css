@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 4rem;
+    
 }
 .about-me {
     min-height: 100vh; 
@@ -31,7 +31,7 @@
     color: #e41b1b;
 }
 .col2 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'poppins';
     color: white;
     opacity: .9;
     padding-top: 10px;
@@ -131,6 +131,7 @@
    .box img {
     width: 310px;
     height: 500px;
+    transform: translate(.5rem,-1rem);
    }
    .hrline, .vrline {
     display: none;

@@ -4,7 +4,7 @@ import './CSS/work.css'
 const Work = () => {
   return (
     <div className="work" id='projects'>
-      <div className="section__tag">
+      <div className="section__tag" >
         <h1><span>Pro</span>jects</h1>
         <div className="cards">
           <Card image= "images/game1.png" date = "10/04/2022" name = "Last Jump" description="2D Hyper Casual Game Made in 48h using Unity3D and C# !" href= "https://saifgames.itch.io/last-jump?fbclid=IwAR0DHYPRQzMEjRuJOwlkUOv3U5WVkDo6cSmXYUhjmijNKvTwIVjs2QYwdIA"/>
